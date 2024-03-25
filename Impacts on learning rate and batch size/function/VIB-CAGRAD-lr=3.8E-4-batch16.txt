@@ -1,0 +1,935 @@
+/root/miniconda3/bin/python /tmp/pycharm_project_366/CodeReviewer/Method/main.py 
+
+########################
+Extracting labels
+###############################
+model
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+119M
+cagrad
+0.00038
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:0------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.444, 'precision': 0.372, 'recall': 0.37, 'f1': 0.355, 'mcc': 0.076}
+train I metric: {'acc': 0.469, 'precision': 0.407, 'recall': 0.399, 'f1': 0.383, 'mcc': 0.128}
+train A metric: {'acc': 0.473, 'precision': 0.378, 'recall': 0.373, 'f1': 0.363, 'mcc': 0.092}
+train AV metric: {'acc': 0.697, 'precision': 0.412, 'recall': 0.407, 'f1': 0.4, 'mcc': 0.174}
+train AC metric: {'acc': 0.469, 'precision': 0.324, 'recall': 0.321, 'f1': 0.314, 'mcc': -0.01}
+train AU metric: {'acc': 0.853, 'precision': 0.497, 'recall': 0.47, 'f1': 0.466, 'mcc': -0.018}
+train severity metric: {'acc': 0.485, 'precision': 0.344, 'recall': 0.345, 'f1': 0.334, 'mcc': 0.016}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.53, 'precision': 0.608, 'recall': 0.461, 'f1': 0.405, 'mcc': 0.263}
+valid I metric: {'acc': 0.584, 'precision': 0.711, 'recall': 0.51, 'f1': 0.433, 'mcc': 0.363}
+valid A metric: {'acc': 0.696, 'precision': 0.798, 'recall': 0.542, 'f1': 0.5, 'mcc': 0.483}
+valid AV metric: {'acc': 0.868, 'precision': 0.875, 'recall': 0.595, 'f1': 0.563, 'mcc': 0.687}
+valid AC metric: {'acc': 0.604, 'precision': 0.733, 'recall': 0.418, 'f1': 0.408, 'mcc': 0.229}
+valid AU metric: {'acc': 0.987, 'precision': 0.993, 'recall': 0.5, 'f1': 0.497, 'mcc': 0.0}
+valid severity metric: {'acc': 0.541, 'precision': 0.816, 'recall': 0.351, 'f1': 0.267, 'mcc': 0.147}
+Validation f1 increased (inf --> 0.439000).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:1------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.594, 'precision': 0.541, 'recall': 0.542, 'f1': 0.532, 'mcc': 0.351}
+train I metric: {'acc': 0.648, 'precision': 0.629, 'recall': 0.592, 'f1': 0.597, 'mcc': 0.438}
+train A metric: {'acc': 0.698, 'precision': 0.468, 'recall': 0.558, 'f1': 0.509, 'mcc': 0.494}
+train AV metric: {'acc': 0.916, 'precision': 0.919, 'recall': 0.597, 'f1': 0.591, 'mcc': 0.762}
+train AC metric: {'acc': 0.592, 'precision': 0.725, 'recall': 0.406, 'f1': 0.399, 'mcc': 0.203}
+train AU metric: {'acc': 0.989, 'precision': 0.995, 'recall': 0.5, 'f1': 0.497, 'mcc': 0.0}
+train severity metric: {'acc': 0.599, 'precision': 0.73, 'recall': 0.395, 'f1': 0.381, 'mcc': 0.193}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.617, 'precision': 0.685, 'recall': 0.563, 'f1': 0.575, 'mcc': 0.402}
+valid I metric: {'acc': 0.694, 'precision': 0.785, 'recall': 0.668, 'f1': 0.671, 'mcc': 0.554}
+valid A metric: {'acc': 0.582, 'precision': 0.844, 'recall': 0.429, 'f1': 0.38, 'mcc': 0.345}
+valid AV metric: {'acc': 0.933, 'precision': 0.939, 'recall': 0.624, 'f1': 0.614, 'mcc': 0.822}
+valid AC metric: {'acc': 0.635, 'precision': 0.758, 'recall': 0.446, 'f1': 0.432, 'mcc': 0.305}
+valid AU metric: {'acc': 0.987, 'precision': 0.993, 'recall': 0.5, 'f1': 0.497, 'mcc': 0.0}
+valid severity metric: {'acc': 0.631, 'precision': 0.861, 'recall': 0.421, 'f1': 0.384, 'mcc': 0.371}
+Validation f1 increased (0.439000 --> 0.507571).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:2------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.669, 'precision': 0.644, 'recall': 0.635, 'f1': 0.635, 'mcc': 0.476}
+train I metric: {'acc': 0.714, 'precision': 0.708, 'recall': 0.685, 'f1': 0.693, 'mcc': 0.548}
+train A metric: {'acc': 0.73, 'precision': 0.492, 'recall': 0.586, 'f1': 0.534, 'mcc': 0.553}
+train AV metric: {'acc': 0.919, 'precision': 0.925, 'recall': 0.594, 'f1': 0.592, 'mcc': 0.767}
+train AC metric: {'acc': 0.668, 'precision': 0.777, 'recall': 0.459, 'f1': 0.451, 'mcc': 0.353}
+train AU metric: {'acc': 0.989, 'precision': 0.995, 'recall': 0.5, 'f1': 0.497, 'mcc': 0.0}
+train severity metric: {'acc': 0.709, 'precision': 0.48, 'recall': 0.481, 'f1': 0.474, 'mcc': 0.43}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.7, 'precision': 0.727, 'recall': 0.658, 'f1': 0.672, 'mcc': 0.536}
+valid I metric: {'acc': 0.734, 'precision': 0.767, 'recall': 0.702, 'f1': 0.714, 'mcc': 0.592}
+valid A metric: {'acc': 0.743, 'precision': 0.506, 'recall': 0.58, 'f1': 0.538, 'mcc': 0.572}
+valid AV metric: {'acc': 0.908, 'precision': 0.915, 'recall': 0.604, 'f1': 0.592, 'mcc': 0.759}
+valid AC metric: {'acc': 0.732, 'precision': 0.82, 'recall': 0.5, 'f1': 0.492, 'mcc': 0.469}
+valid AU metric: {'acc': 0.987, 'precision': 0.993, 'recall': 0.5, 'f1': 0.497, 'mcc': 0.0}
+valid severity metric: {'acc': 0.761, 'precision': 0.845, 'recall': 0.53, 'f1': 0.518, 'mcc': 0.545}
+Validation f1 increased (0.507571 --> 0.574714).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:3------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.706, 'precision': 0.696, 'recall': 0.689, 'f1': 0.692, 'mcc': 0.536}
+train I metric: {'acc': 0.773, 'precision': 0.77, 'recall': 0.753, 'f1': 0.76, 'mcc': 0.643}
+train A metric: {'acc': 0.76, 'precision': 0.681, 'recall': 0.638, 'f1': 0.623, 'mcc': 0.604}
+train AV metric: {'acc': 0.938, 'precision': 0.939, 'recall': 0.62, 'f1': 0.613, 'mcc': 0.825}
+train AC metric: {'acc': 0.744, 'precision': 0.83, 'recall': 0.51, 'f1': 0.502, 'mcc': 0.501}
+train AU metric: {'acc': 0.991, 'precision': 0.863, 'recall': 0.644, 'f1': 0.705, 'mcc': 0.457}
+train severity metric: {'acc': 0.777, 'precision': 0.521, 'recall': 0.537, 'f1': 0.528, 'mcc': 0.565}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.649, 'precision': 0.669, 'recall': 0.597, 'f1': 0.603, 'mcc': 0.456}
+valid I metric: {'acc': 0.776, 'precision': 0.808, 'recall': 0.752, 'f1': 0.761, 'mcc': 0.662}
+valid A metric: {'acc': 0.767, 'precision': 0.692, 'recall': 0.671, 'f1': 0.676, 'mcc': 0.613}
+valid AV metric: {'acc': 0.922, 'precision': 0.92, 'recall': 0.63, 'f1': 0.606, 'mcc': 0.805}
+valid AC metric: {'acc': 0.758, 'precision': 0.839, 'recall': 0.519, 'f1': 0.511, 'mcc': 0.523}
+valid AU metric: {'acc': 0.991, 'precision': 0.872, 'recall': 0.749, 'f1': 0.798, 'mcc': 0.608}
+valid severity metric: {'acc': 0.774, 'precision': 0.856, 'recall': 0.541, 'f1': 0.529, 'mcc': 0.572}
+Validation f1 increased (0.574714 --> 0.640571).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:4------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.759, 'precision': 0.751, 'recall': 0.747, 'f1': 0.749, 'mcc': 0.622}
+train I metric: {'acc': 0.818, 'precision': 0.814, 'recall': 0.805, 'f1': 0.809, 'mcc': 0.715}
+train A metric: {'acc': 0.798, 'precision': 0.758, 'recall': 0.704, 'f1': 0.71, 'mcc': 0.667}
+train AV metric: {'acc': 0.938, 'precision': 0.845, 'recall': 0.645, 'f1': 0.663, 'mcc': 0.823}
+train AC metric: {'acc': 0.778, 'precision': 0.852, 'recall': 0.534, 'f1': 0.525, 'mcc': 0.567}
+train AU metric: {'acc': 0.993, 'precision': 0.893, 'recall': 0.749, 'f1': 0.805, 'mcc': 0.626}
+train severity metric: {'acc': 0.826, 'precision': 0.607, 'recall': 0.578, 'f1': 0.571, 'mcc': 0.663}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.72, 'precision': 0.718, 'recall': 0.722, 'f1': 0.716, 'mcc': 0.579}
+valid I metric: {'acc': 0.781, 'precision': 0.775, 'recall': 0.784, 'f1': 0.778, 'mcc': 0.67}
+valid A metric: {'acc': 0.765, 'precision': 0.839, 'recall': 0.633, 'f1': 0.627, 'mcc': 0.608}
+valid AV metric: {'acc': 0.911, 'precision': 0.934, 'recall': 0.582, 'f1': 0.59, 'mcc': 0.755}
+valid AC metric: {'acc': 0.787, 'precision': 0.871, 'recall': 0.533, 'f1': 0.528, 'mcc': 0.587}
+valid AU metric: {'acc': 0.991, 'precision': 0.996, 'recall': 0.667, 'f1': 0.748, 'mcc': 0.575}
+valid severity metric: {'acc': 0.752, 'precision': 0.834, 'recall': 0.532, 'f1': 0.515, 'mcc': 0.533}
+Validation f1 increased (0.640571 --> 0.643143).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:5------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.788, 'precision': 0.786, 'recall': 0.78, 'f1': 0.782, 'mcc': 0.669}
+train I metric: {'acc': 0.837, 'precision': 0.838, 'recall': 0.827, 'f1': 0.831, 'mcc': 0.745}
+train A metric: {'acc': 0.83, 'precision': 0.804, 'recall': 0.766, 'f1': 0.777, 'mcc': 0.722}
+train AV metric: {'acc': 0.945, 'precision': 0.862, 'recall': 0.661, 'f1': 0.68, 'mcc': 0.846}
+train AC metric: {'acc': 0.803, 'precision': 0.87, 'recall': 0.551, 'f1': 0.542, 'mcc': 0.616}
+train AU metric: {'acc': 0.995, 'precision': 0.942, 'recall': 0.815, 'f1': 0.868, 'mcc': 0.747}
+train severity metric: {'acc': 0.847, 'precision': 0.743, 'recall': 0.61, 'f1': 0.617, 'mcc': 0.705}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.763, 'precision': 0.775, 'recall': 0.735, 'f1': 0.744, 'mcc': 0.635}
+valid I metric: {'acc': 0.817, 'precision': 0.821, 'recall': 0.804, 'f1': 0.809, 'mcc': 0.719}
+valid A metric: {'acc': 0.828, 'precision': 0.799, 'recall': 0.754, 'f1': 0.769, 'mcc': 0.715}
+valid AV metric: {'acc': 0.942, 'precision': 0.939, 'recall': 0.644, 'f1': 0.623, 'mcc': 0.852}
+valid AC metric: {'acc': 0.794, 'precision': 0.863, 'recall': 0.545, 'f1': 0.536, 'mcc': 0.595}
+valid AU metric: {'acc': 0.987, 'precision': 0.993, 'recall': 0.5, 'f1': 0.497, 'mcc': 0.0}
+valid severity metric: {'acc': 0.781, 'precision': 0.659, 'recall': 0.723, 'f1': 0.677, 'mcc': 0.615}
+Validation f1 increased (0.643143 --> 0.665000).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:6------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.842, 'precision': 0.837, 'recall': 0.833, 'f1': 0.835, 'mcc': 0.753}
+train I metric: {'acc': 0.87, 'precision': 0.867, 'recall': 0.866, 'f1': 0.866, 'mcc': 0.798}
+train A metric: {'acc': 0.881, 'precision': 0.856, 'recall': 0.842, 'f1': 0.848, 'mcc': 0.807}
+train AV metric: {'acc': 0.955, 'precision': 0.918, 'recall': 0.682, 'f1': 0.708, 'mcc': 0.874}
+train AC metric: {'acc': 0.836, 'precision': 0.895, 'recall': 0.573, 'f1': 0.565, 'mcc': 0.683}
+train AU metric: {'acc': 0.994, 'precision': 0.95, 'recall': 0.75, 'f1': 0.821, 'mcc': 0.67}
+train severity metric: {'acc': 0.862, 'precision': 0.739, 'recall': 0.652, 'f1': 0.671, 'mcc': 0.736}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.783, 'precision': 0.776, 'recall': 0.784, 'f1': 0.777, 'mcc': 0.675}
+valid I metric: {'acc': 0.805, 'precision': 0.797, 'recall': 0.803, 'f1': 0.799, 'mcc': 0.705}
+valid A metric: {'acc': 0.723, 'precision': 0.828, 'recall': 0.599, 'f1': 0.617, 'mcc': 0.555}
+valid AV metric: {'acc': 0.928, 'precision': 0.602, 'recall': 0.62, 'f1': 0.611, 'mcc': 0.811}
+valid AC metric: {'acc': 0.812, 'precision': 0.891, 'recall': 0.552, 'f1': 0.547, 'mcc': 0.638}
+valid AU metric: {'acc': 0.989, 'precision': 0.797, 'recall': 0.748, 'f1': 0.77, 'mcc': 0.542}
+valid severity metric: {'acc': 0.785, 'precision': 0.856, 'recall': 0.58, 'f1': 0.588, 'mcc': 0.598}
+Validation f1 increased (0.665000 --> 0.672714).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:7------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.883, 'precision': 0.878, 'recall': 0.875, 'f1': 0.876, 'mcc': 0.816}
+train I metric: {'acc': 0.896, 'precision': 0.894, 'recall': 0.887, 'f1': 0.89, 'mcc': 0.837}
+train A metric: {'acc': 0.894, 'precision': 0.875, 'recall': 0.858, 'f1': 0.865, 'mcc': 0.828}
+train AV metric: {'acc': 0.961, 'precision': 0.961, 'recall': 0.691, 'f1': 0.723, 'mcc': 0.889}
+train AC metric: {'acc': 0.86, 'precision': 0.575, 'recall': 0.592, 'f1': 0.583, 'mcc': 0.73}
+train AU metric: {'acc': 0.996, 'precision': 0.977, 'recall': 0.802, 'f1': 0.87, 'mcc': 0.76}
+train severity metric: {'acc': 0.893, 'precision': 0.778, 'recall': 0.718, 'f1': 0.739, 'mcc': 0.797}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.785, 'precision': 0.777, 'recall': 0.776, 'f1': 0.774, 'mcc': 0.67}
+valid I metric: {'acc': 0.819, 'precision': 0.818, 'recall': 0.81, 'f1': 0.813, 'mcc': 0.723}
+valid A metric: {'acc': 0.812, 'precision': 0.764, 'recall': 0.765, 'f1': 0.765, 'mcc': 0.693}
+valid AV metric: {'acc': 0.946, 'precision': 0.946, 'recall': 0.639, 'f1': 0.625, 'mcc': 0.86}
+valid AC metric: {'acc': 0.799, 'precision': 0.535, 'recall': 0.548, 'f1': 0.54, 'mcc': 0.604}
+valid AU metric: {'acc': 0.991, 'precision': 0.996, 'recall': 0.667, 'f1': 0.748, 'mcc': 0.575}
+valid severity metric: {'acc': 0.812, 'precision': 0.787, 'recall': 0.668, 'f1': 0.703, 'mcc': 0.648}
+Validation f1 increased (0.672714 --> 0.709714).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:8------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.914, 'precision': 0.911, 'recall': 0.91, 'f1': 0.911, 'mcc': 0.865}
+train I metric: {'acc': 0.923, 'precision': 0.923, 'recall': 0.921, 'f1': 0.922, 'mcc': 0.88}
+train A metric: {'acc': 0.913, 'precision': 0.896, 'recall': 0.89, 'f1': 0.893, 'mcc': 0.858}
+train AV metric: {'acc': 0.962, 'precision': 0.9, 'recall': 0.694, 'f1': 0.721, 'mcc': 0.893}
+train AC metric: {'acc': 0.88, 'precision': 0.67, 'recall': 0.609, 'f1': 0.601, 'mcc': 0.768}
+train AU metric: {'acc': 0.994, 'precision': 0.997, 'recall': 0.697, 'f1': 0.781, 'mcc': 0.626}
+train severity metric: {'acc': 0.906, 'precision': 0.829, 'recall': 0.766, 'f1': 0.79, 'mcc': 0.822}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.814, 'precision': 0.809, 'recall': 0.804, 'f1': 0.805, 'mcc': 0.713}
+valid I metric: {'acc': 0.819, 'precision': 0.819, 'recall': 0.816, 'f1': 0.817, 'mcc': 0.724}
+valid A metric: {'acc': 0.832, 'precision': 0.819, 'recall': 0.778, 'f1': 0.794, 'mcc': 0.724}
+valid AV metric: {'acc': 0.94, 'precision': 0.936, 'recall': 0.641, 'f1': 0.62, 'mcc': 0.847}
+valid AC metric: {'acc': 0.83, 'precision': 0.884, 'recall': 0.577, 'f1': 0.563, 'mcc': 0.671}
+valid AU metric: {'acc': 0.991, 'precision': 0.872, 'recall': 0.749, 'f1': 0.798, 'mcc': 0.608}
+valid severity metric: {'acc': 0.812, 'precision': 0.758, 'recall': 0.712, 'f1': 0.726, 'mcc': 0.663}
+Validation f1 increased (0.709714 --> 0.731857).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:9------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.928, 'precision': 0.924, 'recall': 0.923, 'f1': 0.923, 'mcc': 0.887}
+train I metric: {'acc': 0.934, 'precision': 0.934, 'recall': 0.931, 'f1': 0.932, 'mcc': 0.897}
+train A metric: {'acc': 0.934, 'precision': 0.925, 'recall': 0.92, 'f1': 0.922, 'mcc': 0.893}
+train AV metric: {'acc': 0.966, 'precision': 0.917, 'recall': 0.681, 'f1': 0.701, 'mcc': 0.903}
+train AC metric: {'acc': 0.889, 'precision': 0.711, 'recall': 0.632, 'f1': 0.639, 'mcc': 0.786}
+train AU metric: {'acc': 0.995, 'precision': 0.974, 'recall': 0.763, 'f1': 0.838, 'mcc': 0.706}
+train severity metric: {'acc': 0.92, 'precision': 0.838, 'recall': 0.788, 'f1': 0.809, 'mcc': 0.848}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.779, 'precision': 0.767, 'recall': 0.771, 'f1': 0.768, 'mcc': 0.661}
+valid I metric: {'acc': 0.796, 'precision': 0.789, 'recall': 0.795, 'f1': 0.789, 'mcc': 0.693}
+valid A metric: {'acc': 0.805, 'precision': 0.767, 'recall': 0.802, 'f1': 0.774, 'mcc': 0.702}
+valid AV metric: {'acc': 0.935, 'precision': 0.772, 'recall': 0.692, 'f1': 0.71, 'mcc': 0.832}
+valid AC metric: {'acc': 0.814, 'precision': 0.874, 'recall': 0.562, 'f1': 0.551, 'mcc': 0.636}
+valid AU metric: {'acc': 0.987, 'precision': 0.748, 'recall': 0.829, 'f1': 0.782, 'mcc': 0.571}
+valid severity metric: {'acc': 0.837, 'precision': 0.853, 'recall': 0.687, 'f1': 0.728, 'mcc': 0.694}
+EarlyStopping counter: 1 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:10------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.938, 'precision': 0.935, 'recall': 0.935, 'f1': 0.935, 'mcc': 0.903}
+train I metric: {'acc': 0.952, 'precision': 0.951, 'recall': 0.949, 'f1': 0.95, 'mcc': 0.926}
+train A metric: {'acc': 0.945, 'precision': 0.938, 'recall': 0.931, 'f1': 0.935, 'mcc': 0.911}
+train AV metric: {'acc': 0.972, 'precision': 0.917, 'recall': 0.716, 'f1': 0.747, 'mcc': 0.923}
+train AC metric: {'acc': 0.898, 'precision': 0.787, 'recall': 0.641, 'f1': 0.651, 'mcc': 0.804}
+train AU metric: {'acc': 0.996, 'precision': 0.961, 'recall': 0.829, 'f1': 0.884, 'mcc': 0.779}
+train severity metric: {'acc': 0.937, 'precision': 0.879, 'recall': 0.838, 'f1': 0.856, 'mcc': 0.881}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.787, 'precision': 0.799, 'recall': 0.794, 'f1': 0.786, 'mcc': 0.689}
+valid I metric: {'acc': 0.79, 'precision': 0.809, 'recall': 0.789, 'f1': 0.788, 'mcc': 0.691}
+valid A metric: {'acc': 0.843, 'precision': 0.818, 'recall': 0.809, 'f1': 0.813, 'mcc': 0.743}
+valid AV metric: {'acc': 0.946, 'precision': 0.943, 'recall': 0.678, 'f1': 0.686, 'mcc': 0.864}
+valid AC metric: {'acc': 0.826, 'precision': 0.88, 'recall': 0.59, 'f1': 0.594, 'mcc': 0.662}
+valid AU metric: {'acc': 0.993, 'precision': 0.898, 'recall': 0.832, 'f1': 0.862, 'mcc': 0.727}
+valid severity metric: {'acc': 0.832, 'precision': 0.781, 'recall': 0.765, 'f1': 0.768, 'mcc': 0.697}
+Validation f1 increased (0.731857 --> 0.756714).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:11------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.952, 'precision': 0.95, 'recall': 0.951, 'f1': 0.95, 'mcc': 0.925}
+train I metric: {'acc': 0.955, 'precision': 0.954, 'recall': 0.954, 'f1': 0.954, 'mcc': 0.929}
+train A metric: {'acc': 0.949, 'precision': 0.942, 'recall': 0.94, 'f1': 0.941, 'mcc': 0.916}
+train AV metric: {'acc': 0.974, 'precision': 0.972, 'recall': 0.718, 'f1': 0.752, 'mcc': 0.928}
+train AC metric: {'acc': 0.913, 'precision': 0.786, 'recall': 0.684, 'f1': 0.706, 'mcc': 0.833}
+train AU metric: {'acc': 0.996, 'precision': 0.963, 'recall': 0.842, 'f1': 0.893, 'mcc': 0.795}
+train severity metric: {'acc': 0.947, 'precision': 0.892, 'recall': 0.87, 'f1': 0.88, 'mcc': 0.9}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.799, 'precision': 0.791, 'recall': 0.789, 'f1': 0.789, 'mcc': 0.689}
+valid I metric: {'acc': 0.796, 'precision': 0.796, 'recall': 0.786, 'f1': 0.789, 'mcc': 0.688}
+valid A metric: {'acc': 0.83, 'precision': 0.797, 'recall': 0.805, 'f1': 0.801, 'mcc': 0.724}
+valid AV metric: {'acc': 0.94, 'precision': 0.934, 'recall': 0.643, 'f1': 0.62, 'mcc': 0.849}
+valid AC metric: {'acc': 0.83, 'precision': 0.698, 'recall': 0.6, 'f1': 0.618, 'mcc': 0.672}
+valid AU metric: {'acc': 0.987, 'precision': 0.745, 'recall': 0.664, 'f1': 0.697, 'mcc': 0.402}
+valid severity metric: {'acc': 0.832, 'precision': 0.801, 'recall': 0.724, 'f1': 0.751, 'mcc': 0.691}
+EarlyStopping counter: 1 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:12------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.958, 'precision': 0.958, 'recall': 0.956, 'f1': 0.957, 'mcc': 0.934}
+train I metric: {'acc': 0.959, 'precision': 0.959, 'recall': 0.958, 'f1': 0.958, 'mcc': 0.937}
+train A metric: {'acc': 0.958, 'precision': 0.955, 'recall': 0.95, 'f1': 0.952, 'mcc': 0.932}
+train AV metric: {'acc': 0.975, 'precision': 0.942, 'recall': 0.713, 'f1': 0.744, 'mcc': 0.93}
+train AC metric: {'acc': 0.919, 'precision': 0.819, 'recall': 0.707, 'f1': 0.736, 'mcc': 0.844}
+train AU metric: {'acc': 0.995, 'precision': 0.998, 'recall': 0.776, 'f1': 0.855, 'mcc': 0.742}
+train severity metric: {'acc': 0.946, 'precision': 0.905, 'recall': 0.884, 'f1': 0.894, 'mcc': 0.898}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.817, 'precision': 0.815, 'recall': 0.804, 'f1': 0.808, 'mcc': 0.716}
+valid I metric: {'acc': 0.828, 'precision': 0.822, 'recall': 0.82, 'f1': 0.821, 'mcc': 0.737}
+valid A metric: {'acc': 0.834, 'precision': 0.811, 'recall': 0.779, 'f1': 0.791, 'mcc': 0.727}
+valid AV metric: {'acc': 0.931, 'precision': 0.938, 'recall': 0.614, 'f1': 0.609, 'mcc': 0.814}
+valid AC metric: {'acc': 0.796, 'precision': 0.623, 'recall': 0.656, 'f1': 0.633, 'mcc': 0.628}
+valid AU metric: {'acc': 0.991, 'precision': 0.996, 'recall': 0.667, 'f1': 0.748, 'mcc': 0.575}
+valid severity metric: {'acc': 0.83, 'precision': 0.765, 'recall': 0.756, 'f1': 0.76, 'mcc': 0.687}
+EarlyStopping counter: 2 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:13------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.957, 'precision': 0.956, 'recall': 0.954, 'f1': 0.955, 'mcc': 0.932}
+train I metric: {'acc': 0.968, 'precision': 0.968, 'recall': 0.967, 'f1': 0.968, 'mcc': 0.951}
+train A metric: {'acc': 0.967, 'precision': 0.962, 'recall': 0.96, 'f1': 0.961, 'mcc': 0.947}
+train AV metric: {'acc': 0.976, 'precision': 0.973, 'recall': 0.714, 'f1': 0.746, 'mcc': 0.934}
+train AC metric: {'acc': 0.931, 'precision': 0.873, 'recall': 0.756, 'f1': 0.792, 'mcc': 0.868}
+train AU metric: {'acc': 0.995, 'precision': 0.975, 'recall': 0.776, 'f1': 0.849, 'mcc': 0.724}
+train severity metric: {'acc': 0.964, 'precision': 0.924, 'recall': 0.921, 'f1': 0.923, 'mcc': 0.932}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.805, 'precision': 0.807, 'recall': 0.793, 'f1': 0.796, 'mcc': 0.701}
+valid I metric: {'acc': 0.81, 'precision': 0.818, 'recall': 0.806, 'f1': 0.807, 'mcc': 0.714}
+valid A metric: {'acc': 0.839, 'precision': 0.819, 'recall': 0.791, 'f1': 0.802, 'mcc': 0.735}
+valid AV metric: {'acc': 0.946, 'precision': 0.836, 'recall': 0.704, 'f1': 0.727, 'mcc': 0.861}
+valid AC metric: {'acc': 0.814, 'precision': 0.71, 'recall': 0.588, 'f1': 0.586, 'mcc': 0.651}
+valid AU metric: {'acc': 0.987, 'precision': 0.748, 'recall': 0.829, 'f1': 0.782, 'mcc': 0.571}
+valid severity metric: {'acc': 0.837, 'precision': 0.87, 'recall': 0.707, 'f1': 0.753, 'mcc': 0.7}
+EarlyStopping counter: 3 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:14------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.961, 'precision': 0.959, 'recall': 0.957, 'f1': 0.958, 'mcc': 0.938}
+train I metric: {'acc': 0.971, 'precision': 0.97, 'recall': 0.97, 'f1': 0.97, 'mcc': 0.955}
+train A metric: {'acc': 0.968, 'precision': 0.966, 'recall': 0.962, 'f1': 0.964, 'mcc': 0.949}
+train AV metric: {'acc': 0.981, 'precision': 0.958, 'recall': 0.746, 'f1': 0.788, 'mcc': 0.947}
+train AC metric: {'acc': 0.947, 'precision': 0.919, 'recall': 0.777, 'f1': 0.82, 'mcc': 0.898}
+train AU metric: {'acc': 0.997, 'precision': 0.999, 'recall': 0.868, 'f1': 0.924, 'mcc': 0.857}
+train severity metric: {'acc': 0.958, 'precision': 0.914, 'recall': 0.901, 'f1': 0.907, 'mcc': 0.921}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.803, 'precision': 0.799, 'recall': 0.795, 'f1': 0.793, 'mcc': 0.701}
+valid I metric: {'acc': 0.837, 'precision': 0.837, 'recall': 0.822, 'f1': 0.827, 'mcc': 0.749}
+valid A metric: {'acc': 0.839, 'precision': 0.801, 'recall': 0.832, 'f1': 0.811, 'mcc': 0.745}
+valid AV metric: {'acc': 0.946, 'precision': 0.937, 'recall': 0.685, 'f1': 0.685, 'mcc': 0.871}
+valid AC metric: {'acc': 0.801, 'precision': 0.649, 'recall': 0.608, 'f1': 0.618, 'mcc': 0.62}
+valid AU metric: {'acc': 0.993, 'precision': 0.898, 'recall': 0.832, 'f1': 0.862, 'mcc': 0.727}
+valid severity metric: {'acc': 0.826, 'precision': 0.75, 'recall': 0.749, 'f1': 0.746, 'mcc': 0.683}
+Validation f1 increased (0.756714 --> 0.763143).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:15------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.972, 'precision': 0.971, 'recall': 0.972, 'f1': 0.971, 'mcc': 0.956}
+train I metric: {'acc': 0.972, 'precision': 0.971, 'recall': 0.971, 'f1': 0.971, 'mcc': 0.956}
+train A metric: {'acc': 0.975, 'precision': 0.969, 'recall': 0.971, 'f1': 0.97, 'mcc': 0.959}
+train AV metric: {'acc': 0.981, 'precision': 0.977, 'recall': 0.736, 'f1': 0.774, 'mcc': 0.946}
+train AC metric: {'acc': 0.944, 'precision': 0.881, 'recall': 0.793, 'f1': 0.825, 'mcc': 0.893}
+train AU metric: {'acc': 0.997, 'precision': 0.999, 'recall': 0.868, 'f1': 0.924, 'mcc': 0.857}
+train severity metric: {'acc': 0.971, 'precision': 0.938, 'recall': 0.944, 'f1': 0.941, 'mcc': 0.946}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.834, 'precision': 0.827, 'recall': 0.829, 'f1': 0.828, 'mcc': 0.746}
+valid I metric: {'acc': 0.834, 'precision': 0.837, 'recall': 0.821, 'f1': 0.827, 'mcc': 0.746}
+valid A metric: {'acc': 0.843, 'precision': 0.812, 'recall': 0.816, 'f1': 0.814, 'mcc': 0.745}
+valid AV metric: {'acc': 0.944, 'precision': 0.935, 'recall': 0.684, 'f1': 0.684, 'mcc': 0.865}
+valid AC metric: {'acc': 0.817, 'precision': 0.774, 'recall': 0.59, 'f1': 0.612, 'mcc': 0.644}
+valid AU metric: {'acc': 0.996, 'precision': 0.998, 'recall': 0.833, 'f1': 0.899, 'mcc': 0.815}
+valid severity metric: {'acc': 0.839, 'precision': 0.809, 'recall': 0.724, 'f1': 0.755, 'mcc': 0.701}
+Validation f1 increased (0.763143 --> 0.774143).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:16------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.969, 'precision': 0.968, 'recall': 0.968, 'f1': 0.968, 'mcc': 0.951}
+train I metric: {'acc': 0.977, 'precision': 0.976, 'recall': 0.977, 'f1': 0.977, 'mcc': 0.964}
+train A metric: {'acc': 0.979, 'precision': 0.976, 'recall': 0.973, 'f1': 0.974, 'mcc': 0.966}
+train AV metric: {'acc': 0.985, 'precision': 0.956, 'recall': 0.795, 'f1': 0.841, 'mcc': 0.959}
+train AC metric: {'acc': 0.957, 'precision': 0.903, 'recall': 0.834, 'f1': 0.862, 'mcc': 0.918}
+train AU metric: {'acc': 0.998, 'precision': 0.999, 'recall': 0.908, 'f1': 0.949, 'mcc': 0.902}
+train severity metric: {'acc': 0.975, 'precision': 0.95, 'recall': 0.956, 'f1': 0.953, 'mcc': 0.954}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.81, 'precision': 0.811, 'recall': 0.805, 'f1': 0.805, 'mcc': 0.711}
+valid I metric: {'acc': 0.832, 'precision': 0.84, 'recall': 0.826, 'f1': 0.829, 'mcc': 0.745}
+valid A metric: {'acc': 0.837, 'precision': 0.816, 'recall': 0.796, 'f1': 0.804, 'mcc': 0.732}
+valid AV metric: {'acc': 0.94, 'precision': 0.716, 'recall': 0.671, 'f1': 0.671, 'mcc': 0.848}
+valid AC metric: {'acc': 0.839, 'precision': 0.768, 'recall': 0.668, 'f1': 0.695, 'mcc': 0.691}
+valid AU metric: {'acc': 0.987, 'precision': 0.745, 'recall': 0.664, 'f1': 0.697, 'mcc': 0.402}
+valid severity metric: {'acc': 0.846, 'precision': 0.799, 'recall': 0.764, 'f1': 0.778, 'mcc': 0.718}
+EarlyStopping counter: 1 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:17------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.978, 'precision': 0.979, 'recall': 0.977, 'f1': 0.978, 'mcc': 0.966}
+train I metric: {'acc': 0.98, 'precision': 0.98, 'recall': 0.98, 'f1': 0.98, 'mcc': 0.969}
+train A metric: {'acc': 0.981, 'precision': 0.978, 'recall': 0.979, 'f1': 0.979, 'mcc': 0.97}
+train AV metric: {'acc': 0.984, 'precision': 0.935, 'recall': 0.766, 'f1': 0.808, 'mcc': 0.955}
+train AC metric: {'acc': 0.953, 'precision': 0.904, 'recall': 0.843, 'f1': 0.869, 'mcc': 0.911}
+train AU metric: {'acc': 0.998, 'precision': 0.984, 'recall': 0.921, 'f1': 0.95, 'mcc': 0.903}
+train severity metric: {'acc': 0.978, 'precision': 0.95, 'recall': 0.953, 'f1': 0.951, 'mcc': 0.959}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.817, 'precision': 0.811, 'recall': 0.809, 'f1': 0.809, 'mcc': 0.718}
+valid I metric: {'acc': 0.814, 'precision': 0.815, 'recall': 0.806, 'f1': 0.808, 'mcc': 0.717}
+valid A metric: {'acc': 0.846, 'precision': 0.814, 'recall': 0.821, 'f1': 0.818, 'mcc': 0.749}
+valid AV metric: {'acc': 0.937, 'precision': 0.827, 'recall': 0.698, 'f1': 0.719, 'mcc': 0.839}
+valid AC metric: {'acc': 0.843, 'precision': 0.762, 'recall': 0.636, 'f1': 0.658, 'mcc': 0.697}
+valid AU metric: {'acc': 0.982, 'precision': 0.698, 'recall': 0.827, 'f1': 0.745, 'mcc': 0.508}
+valid severity metric: {'acc': 0.839, 'precision': 0.897, 'recall': 0.649, 'f1': 0.685, 'mcc': 0.699}
+EarlyStopping counter: 2 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:18------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.977, 'precision': 0.978, 'recall': 0.975, 'f1': 0.977, 'mcc': 0.964}
+train I metric: {'acc': 0.983, 'precision': 0.984, 'recall': 0.981, 'f1': 0.982, 'mcc': 0.974}
+train A metric: {'acc': 0.984, 'precision': 0.982, 'recall': 0.979, 'f1': 0.981, 'mcc': 0.974}
+train AV metric: {'acc': 0.985, 'precision': 0.901, 'recall': 0.799, 'f1': 0.834, 'mcc': 0.959}
+train AC metric: {'acc': 0.964, 'precision': 0.949, 'recall': 0.889, 'f1': 0.915, 'mcc': 0.933}
+train AU metric: {'acc': 0.999, 'precision': 0.999, 'recall': 0.947, 'f1': 0.972, 'mcc': 0.945}
+train severity metric: {'acc': 0.978, 'precision': 0.963, 'recall': 0.958, 'f1': 0.961, 'mcc': 0.96}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.812, 'precision': 0.803, 'recall': 0.803, 'f1': 0.803, 'mcc': 0.71}
+valid I metric: {'acc': 0.819, 'precision': 0.817, 'recall': 0.807, 'f1': 0.81, 'mcc': 0.722}
+valid A metric: {'acc': 0.837, 'precision': 0.813, 'recall': 0.803, 'f1': 0.807, 'mcc': 0.732}
+valid AV metric: {'acc': 0.935, 'precision': 0.745, 'recall': 0.724, 'f1': 0.73, 'mcc': 0.836}
+valid AC metric: {'acc': 0.848, 'precision': 0.774, 'recall': 0.673, 'f1': 0.701, 'mcc': 0.707}
+valid AU metric: {'acc': 0.987, 'precision': 0.745, 'recall': 0.664, 'f1': 0.697, 'mcc': 0.402}
+valid severity metric: {'acc': 0.834, 'precision': 0.77, 'recall': 0.746, 'f1': 0.757, 'mcc': 0.694}
+EarlyStopping counter: 3 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:19------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.981, 'precision': 0.981, 'recall': 0.98, 'f1': 0.98, 'mcc': 0.97}
+train I metric: {'acc': 0.985, 'precision': 0.986, 'recall': 0.984, 'f1': 0.985, 'mcc': 0.977}
+train A metric: {'acc': 0.983, 'precision': 0.978, 'recall': 0.981, 'f1': 0.979, 'mcc': 0.972}
+train AV metric: {'acc': 0.988, 'precision': 0.951, 'recall': 0.846, 'f1': 0.885, 'mcc': 0.967}
+train AC metric: {'acc': 0.972, 'precision': 0.953, 'recall': 0.904, 'f1': 0.926, 'mcc': 0.947}
+train AU metric: {'acc': 0.999, 'precision': 0.973, 'recall': 0.973, 'f1': 0.973, 'mcc': 0.947}
+train severity metric: {'acc': 0.983, 'precision': 0.962, 'recall': 0.974, 'f1': 0.968, 'mcc': 0.968}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.801, 'precision': 0.79, 'recall': 0.797, 'f1': 0.792, 'mcc': 0.696}
+valid I metric: {'acc': 0.819, 'precision': 0.811, 'recall': 0.812, 'f1': 0.812, 'mcc': 0.723}
+valid A metric: {'acc': 0.85, 'precision': 0.834, 'recall': 0.802, 'f1': 0.815, 'mcc': 0.753}
+valid AV metric: {'acc': 0.942, 'precision': 0.884, 'recall': 0.797, 'f1': 0.826, 'mcc': 0.853}
+valid AC metric: {'acc': 0.839, 'precision': 0.89, 'recall': 0.62, 'f1': 0.635, 'mcc': 0.694}
+valid AU metric: {'acc': 0.989, 'precision': 0.829, 'recall': 0.666, 'f1': 0.719, 'mcc': 0.467}
+valid severity metric: {'acc': 0.839, 'precision': 0.811, 'recall': 0.761, 'f1': 0.782, 'mcc': 0.702}
+EarlyStopping counter: 4 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:20------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.979, 'precision': 0.978, 'recall': 0.979, 'f1': 0.978, 'mcc': 0.968}
+train I metric: {'acc': 0.983, 'precision': 0.983, 'recall': 0.981, 'f1': 0.982, 'mcc': 0.973}
+train A metric: {'acc': 0.987, 'precision': 0.985, 'recall': 0.984, 'f1': 0.985, 'mcc': 0.978}
+train AV metric: {'acc': 0.988, 'precision': 0.932, 'recall': 0.856, 'f1': 0.887, 'mcc': 0.966}
+train AC metric: {'acc': 0.979, 'precision': 0.963, 'recall': 0.929, 'f1': 0.944, 'mcc': 0.96}
+train AU metric: {'acc': 0.998, 'precision': 0.971, 'recall': 0.934, 'f1': 0.952, 'mcc': 0.904}
+train severity metric: {'acc': 0.984, 'precision': 0.968, 'recall': 0.975, 'f1': 0.971, 'mcc': 0.971}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.83, 'precision': 0.822, 'recall': 0.823, 'f1': 0.823, 'mcc': 0.738}
+valid I metric: {'acc': 0.83, 'precision': 0.825, 'recall': 0.823, 'f1': 0.824, 'mcc': 0.739}
+valid A metric: {'acc': 0.848, 'precision': 0.828, 'recall': 0.793, 'f1': 0.807, 'mcc': 0.749}
+valid AV metric: {'acc': 0.949, 'precision': 0.862, 'recall': 0.746, 'f1': 0.77, 'mcc': 0.872}
+valid AC metric: {'acc': 0.861, 'precision': 0.784, 'recall': 0.731, 'f1': 0.753, 'mcc': 0.734}
+valid AU metric: {'acc': 0.989, 'precision': 0.829, 'recall': 0.666, 'f1': 0.719, 'mcc': 0.467}
+valid severity metric: {'acc': 0.837, 'precision': 0.889, 'recall': 0.688, 'f1': 0.732, 'mcc': 0.694}
+Validation f1 increased (0.774143 --> 0.775429).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:21------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.986, 'precision': 0.986, 'recall': 0.985, 'f1': 0.986, 'mcc': 0.978}
+train I metric: {'acc': 0.989, 'precision': 0.989, 'recall': 0.987, 'f1': 0.988, 'mcc': 0.982}
+train A metric: {'acc': 0.99, 'precision': 0.988, 'recall': 0.988, 'f1': 0.988, 'mcc': 0.984}
+train AV metric: {'acc': 0.992, 'precision': 0.957, 'recall': 0.905, 'f1': 0.928, 'mcc': 0.979}
+train AC metric: {'acc': 0.981, 'precision': 0.962, 'recall': 0.945, 'f1': 0.953, 'mcc': 0.963}
+train AU metric: {'acc': 0.999, 'precision': 1.0, 'recall': 0.974, 'f1': 0.986, 'mcc': 0.973}
+train severity metric: {'acc': 0.984, 'precision': 0.973, 'recall': 0.965, 'f1': 0.969, 'mcc': 0.97}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.823, 'precision': 0.819, 'recall': 0.819, 'f1': 0.817, 'mcc': 0.73}
+valid I metric: {'acc': 0.837, 'precision': 0.839, 'recall': 0.828, 'f1': 0.832, 'mcc': 0.75}
+valid A metric: {'acc': 0.843, 'precision': 0.809, 'recall': 0.816, 'f1': 0.812, 'mcc': 0.745}
+valid AV metric: {'acc': 0.957, 'precision': 0.842, 'recall': 0.783, 'f1': 0.8, 'mcc': 0.895}
+valid AC metric: {'acc': 0.848, 'precision': 0.787, 'recall': 0.655, 'f1': 0.684, 'mcc': 0.705}
+valid AU metric: {'acc': 0.991, 'precision': 0.831, 'recall': 0.831, 'f1': 0.831, 'mcc': 0.662}
+valid severity metric: {'acc': 0.855, 'precision': 0.815, 'recall': 0.783, 'f1': 0.797, 'mcc': 0.732}
+Validation f1 increased (0.775429 --> 0.796143).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:22------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.986, 'precision': 0.985, 'recall': 0.984, 'f1': 0.985, 'mcc': 0.978}
+train I metric: {'acc': 0.988, 'precision': 0.988, 'recall': 0.986, 'f1': 0.987, 'mcc': 0.981}
+train A metric: {'acc': 0.989, 'precision': 0.988, 'recall': 0.987, 'f1': 0.988, 'mcc': 0.983}
+train AV metric: {'acc': 0.992, 'precision': 0.961, 'recall': 0.894, 'f1': 0.923, 'mcc': 0.979}
+train AC metric: {'acc': 0.98, 'precision': 0.962, 'recall': 0.941, 'f1': 0.951, 'mcc': 0.962}
+train AU metric: {'acc': 0.999, 'precision': 1.0, 'recall': 0.961, 'f1': 0.979, 'mcc': 0.959}
+train severity metric: {'acc': 0.987, 'precision': 0.967, 'recall': 0.977, 'f1': 0.972, 'mcc': 0.975}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.826, 'precision': 0.816, 'recall': 0.821, 'f1': 0.818, 'mcc': 0.733}
+valid I metric: {'acc': 0.839, 'precision': 0.834, 'recall': 0.832, 'f1': 0.833, 'mcc': 0.753}
+valid A metric: {'acc': 0.852, 'precision': 0.836, 'recall': 0.813, 'f1': 0.823, 'mcc': 0.757}
+valid AV metric: {'acc': 0.953, 'precision': 0.88, 'recall': 0.778, 'f1': 0.805, 'mcc': 0.883}
+valid AC metric: {'acc': 0.861, 'precision': 0.817, 'recall': 0.732, 'f1': 0.764, 'mcc': 0.733}
+valid AU metric: {'acc': 0.989, 'precision': 0.783, 'recall': 0.83, 'f1': 0.805, 'mcc': 0.612}
+valid severity metric: {'acc': 0.855, 'precision': 0.849, 'recall': 0.784, 'f1': 0.811, 'mcc': 0.731}
+Validation f1 increased (0.796143 --> 0.808429).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:23------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.987, 'precision': 0.986, 'recall': 0.987, 'f1': 0.987, 'mcc': 0.98}
+train I metric: {'acc': 0.989, 'precision': 0.989, 'recall': 0.988, 'f1': 0.988, 'mcc': 0.983}
+train A metric: {'acc': 0.991, 'precision': 0.989, 'recall': 0.991, 'f1': 0.99, 'mcc': 0.986}
+train AV metric: {'acc': 0.992, 'precision': 0.97, 'recall': 0.894, 'f1': 0.926, 'mcc': 0.978}
+train AC metric: {'acc': 0.987, 'precision': 0.976, 'recall': 0.969, 'f1': 0.972, 'mcc': 0.976}
+train AU metric: {'acc': 1.0, 'precision': 1.0, 'recall': 0.987, 'f1': 0.993, 'mcc': 0.987}
+train severity metric: {'acc': 0.989, 'precision': 0.983, 'recall': 0.977, 'f1': 0.98, 'mcc': 0.978}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.821, 'precision': 0.812, 'recall': 0.815, 'f1': 0.813, 'mcc': 0.725}
+valid I metric: {'acc': 0.821, 'precision': 0.82, 'recall': 0.813, 'f1': 0.815, 'mcc': 0.727}
+valid A metric: {'acc': 0.841, 'precision': 0.82, 'recall': 0.806, 'f1': 0.812, 'mcc': 0.74}
+valid AV metric: {'acc': 0.957, 'precision': 0.95, 'recall': 0.815, 'f1': 0.853, 'mcc': 0.895}
+valid AC metric: {'acc': 0.877, 'precision': 0.844, 'recall': 0.727, 'f1': 0.764, 'mcc': 0.763}
+valid AU metric: {'acc': 0.993, 'precision': 0.898, 'recall': 0.832, 'f1': 0.862, 'mcc': 0.727}
+valid severity metric: {'acc': 0.848, 'precision': 0.856, 'recall': 0.754, 'f1': 0.792, 'mcc': 0.717}
+Validation f1 increased (0.808429 --> 0.815857).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:24------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.987, 'precision': 0.987, 'recall': 0.986, 'f1': 0.987, 'mcc': 0.98}
+train I metric: {'acc': 0.99, 'precision': 0.989, 'recall': 0.989, 'f1': 0.989, 'mcc': 0.984}
+train A metric: {'acc': 0.992, 'precision': 0.99, 'recall': 0.991, 'f1': 0.991, 'mcc': 0.987}
+train AV metric: {'acc': 0.995, 'precision': 0.988, 'recall': 0.918, 'f1': 0.948, 'mcc': 0.987}
+train AC metric: {'acc': 0.991, 'precision': 0.981, 'recall': 0.972, 'f1': 0.976, 'mcc': 0.984}
+train AU metric: {'acc': 1.0, 'precision': 1.0, 'recall': 1.0, 'f1': 1.0, 'mcc': 1.0}
+train severity metric: {'acc': 0.987, 'precision': 0.972, 'recall': 0.977, 'f1': 0.974, 'mcc': 0.976}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.832, 'precision': 0.828, 'recall': 0.821, 'f1': 0.823, 'mcc': 0.742}
+valid I metric: {'acc': 0.832, 'precision': 0.837, 'recall': 0.819, 'f1': 0.825, 'mcc': 0.742}
+valid A metric: {'acc': 0.85, 'precision': 0.84, 'recall': 0.808, 'f1': 0.822, 'mcc': 0.753}
+valid AV metric: {'acc': 0.96, 'precision': 0.864, 'recall': 0.811, 'f1': 0.831, 'mcc': 0.897}
+valid AC metric: {'acc': 0.859, 'precision': 0.73, 'recall': 0.747, 'f1': 0.737, 'mcc': 0.733}
+valid AU metric: {'acc': 0.991, 'precision': 0.996, 'recall': 0.667, 'f1': 0.748, 'mcc': 0.575}
+valid severity metric: {'acc': 0.839, 'precision': 0.82, 'recall': 0.747, 'f1': 0.776, 'mcc': 0.702}
+EarlyStopping counter: 1 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:25------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.989, 'precision': 0.99, 'recall': 0.988, 'f1': 0.989, 'mcc': 0.983}
+train I metric: {'acc': 0.993, 'precision': 0.994, 'recall': 0.992, 'f1': 0.993, 'mcc': 0.99}
+train A metric: {'acc': 0.993, 'precision': 0.991, 'recall': 0.991, 'f1': 0.991, 'mcc': 0.988}
+train AV metric: {'acc': 0.995, 'precision': 0.976, 'recall': 0.935, 'f1': 0.954, 'mcc': 0.987}
+train AC metric: {'acc': 0.99, 'precision': 0.988, 'recall': 0.981, 'f1': 0.985, 'mcc': 0.982}
+train AU metric: {'acc': 0.999, 'precision': 1.0, 'recall': 0.974, 'f1': 0.986, 'mcc': 0.973}
+train severity metric: {'acc': 0.993, 'precision': 0.984, 'recall': 0.989, 'f1': 0.987, 'mcc': 0.986}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.828, 'precision': 0.826, 'recall': 0.816, 'f1': 0.82, 'mcc': 0.734}
+valid I metric: {'acc': 0.832, 'precision': 0.831, 'recall': 0.824, 'f1': 0.826, 'mcc': 0.743}
+valid A metric: {'acc': 0.843, 'precision': 0.812, 'recall': 0.814, 'f1': 0.812, 'mcc': 0.745}
+valid AV metric: {'acc': 0.957, 'precision': 0.851, 'recall': 0.836, 'f1': 0.843, 'mcc': 0.89}
+valid AC metric: {'acc': 0.843, 'precision': 0.781, 'recall': 0.734, 'f1': 0.754, 'mcc': 0.699}
+valid AU metric: {'acc': 0.989, 'precision': 0.797, 'recall': 0.748, 'f1': 0.77, 'mcc': 0.542}
+valid severity metric: {'acc': 0.843, 'precision': 0.775, 'recall': 0.762, 'f1': 0.765, 'mcc': 0.716}
+EarlyStopping counter: 2 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:26------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.988, 'precision': 0.988, 'recall': 0.987, 'f1': 0.987, 'mcc': 0.981}
+train I metric: {'acc': 0.993, 'precision': 0.993, 'recall': 0.992, 'f1': 0.992, 'mcc': 0.989}
+train A metric: {'acc': 0.992, 'precision': 0.989, 'recall': 0.99, 'f1': 0.989, 'mcc': 0.987}
+train AV metric: {'acc': 0.997, 'precision': 0.986, 'recall': 0.964, 'f1': 0.974, 'mcc': 0.992}
+train AC metric: {'acc': 0.99, 'precision': 0.981, 'recall': 0.986, 'f1': 0.983, 'mcc': 0.981}
+train AU metric: {'acc': 1.0, 'precision': 1.0, 'recall': 1.0, 'f1': 1.0, 'mcc': 1.0}
+train severity metric: {'acc': 0.99, 'precision': 0.982, 'recall': 0.978, 'f1': 0.98, 'mcc': 0.981}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.846, 'precision': 0.847, 'recall': 0.839, 'f1': 0.839, 'mcc': 0.764}
+valid I metric: {'acc': 0.848, 'precision': 0.854, 'recall': 0.836, 'f1': 0.841, 'mcc': 0.768}
+valid A metric: {'acc': 0.852, 'precision': 0.827, 'recall': 0.822, 'f1': 0.824, 'mcc': 0.758}
+valid AV metric: {'acc': 0.962, 'precision': 0.876, 'recall': 0.847, 'f1': 0.858, 'mcc': 0.905}
+valid AC metric: {'acc': 0.868, 'precision': 0.809, 'recall': 0.699, 'f1': 0.734, 'mcc': 0.746}
+valid AU metric: {'acc': 0.984, 'precision': 0.695, 'recall': 0.663, 'f1': 0.678, 'mcc': 0.357}
+valid severity metric: {'acc': 0.843, 'precision': 0.804, 'recall': 0.763, 'f1': 0.78, 'mcc': 0.712}
+EarlyStopping counter: 3 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:27------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.991, 'precision': 0.991, 'recall': 0.99, 'f1': 0.991, 'mcc': 0.986}
+train I metric: {'acc': 0.994, 'precision': 0.994, 'recall': 0.993, 'f1': 0.993, 'mcc': 0.99}
+train A metric: {'acc': 0.992, 'precision': 0.989, 'recall': 0.99, 'f1': 0.99, 'mcc': 0.987}
+train AV metric: {'acc': 0.997, 'precision': 0.992, 'recall': 0.954, 'f1': 0.971, 'mcc': 0.993}
+train AC metric: {'acc': 0.994, 'precision': 0.989, 'recall': 0.996, 'f1': 0.992, 'mcc': 0.989}
+train AU metric: {'acc': 1.0, 'precision': 1.0, 'recall': 0.987, 'f1': 0.993, 'mcc': 0.987}
+train severity metric: {'acc': 0.994, 'precision': 0.985, 'recall': 0.992, 'f1': 0.988, 'mcc': 0.988}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.823, 'precision': 0.816, 'recall': 0.816, 'f1': 0.815, 'mcc': 0.729}
+valid I metric: {'acc': 0.837, 'precision': 0.838, 'recall': 0.825, 'f1': 0.829, 'mcc': 0.75}
+valid A metric: {'acc': 0.852, 'precision': 0.832, 'recall': 0.814, 'f1': 0.822, 'mcc': 0.757}
+valid AV metric: {'acc': 0.946, 'precision': 0.818, 'recall': 0.81, 'f1': 0.81, 'mcc': 0.871}
+valid AC metric: {'acc': 0.868, 'precision': 0.787, 'recall': 0.751, 'f1': 0.767, 'mcc': 0.747}
+valid AU metric: {'acc': 0.991, 'precision': 0.872, 'recall': 0.749, 'f1': 0.798, 'mcc': 0.608}
+valid severity metric: {'acc': 0.843, 'precision': 0.824, 'recall': 0.714, 'f1': 0.75, 'mcc': 0.709}
+EarlyStopping counter: 4 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:28------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.992, 'precision': 0.992, 'recall': 0.992, 'f1': 0.992, 'mcc': 0.988}
+train I metric: {'acc': 0.994, 'precision': 0.994, 'recall': 0.993, 'f1': 0.994, 'mcc': 0.991}
+train A metric: {'acc': 0.995, 'precision': 0.994, 'recall': 0.994, 'f1': 0.994, 'mcc': 0.991}
+train AV metric: {'acc': 0.995, 'precision': 0.97, 'recall': 0.945, 'f1': 0.957, 'mcc': 0.986}
+train AC metric: {'acc': 0.993, 'precision': 0.985, 'recall': 0.985, 'f1': 0.985, 'mcc': 0.986}
+train AU metric: {'acc': 1.0, 'precision': 1.0, 'recall': 1.0, 'f1': 1.0, 'mcc': 1.0}
+train severity metric: {'acc': 0.992, 'precision': 0.984, 'recall': 0.985, 'f1': 0.984, 'mcc': 0.985}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.83, 'precision': 0.827, 'recall': 0.823, 'f1': 0.822, 'mcc': 0.741}
+valid I metric: {'acc': 0.828, 'precision': 0.835, 'recall': 0.816, 'f1': 0.821, 'mcc': 0.737}
+valid A metric: {'acc': 0.846, 'precision': 0.832, 'recall': 0.805, 'f1': 0.817, 'mcc': 0.746}
+valid AV metric: {'acc': 0.964, 'precision': 0.916, 'recall': 0.843, 'f1': 0.872, 'mcc': 0.908}
+valid AC metric: {'acc': 0.868, 'precision': 0.783, 'recall': 0.756, 'f1': 0.768, 'mcc': 0.749}
+valid AU metric: {'acc': 0.991, 'precision': 0.831, 'recall': 0.831, 'f1': 0.831, 'mcc': 0.662}
+valid severity metric: {'acc': 0.848, 'precision': 0.861, 'recall': 0.778, 'f1': 0.811, 'mcc': 0.718}
+Validation f1 increased (0.815857 --> 0.820286).  Saving model ...
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:29------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.992, 'precision': 0.992, 'recall': 0.992, 'f1': 0.992, 'mcc': 0.988}
+train I metric: {'acc': 0.994, 'precision': 0.994, 'recall': 0.994, 'f1': 0.994, 'mcc': 0.991}
+train A metric: {'acc': 0.994, 'precision': 0.993, 'recall': 0.993, 'f1': 0.993, 'mcc': 0.99}
+train AV metric: {'acc': 0.997, 'precision': 0.986, 'recall': 0.976, 'f1': 0.981, 'mcc': 0.993}
+train AC metric: {'acc': 0.994, 'precision': 0.986, 'recall': 0.994, 'f1': 0.99, 'mcc': 0.989}
+train AU metric: {'acc': 0.999, 'precision': 0.987, 'recall': 0.987, 'f1': 0.987, 'mcc': 0.973}
+train severity metric: {'acc': 0.992, 'precision': 0.986, 'recall': 0.993, 'f1': 0.989, 'mcc': 0.986}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.828, 'precision': 0.82, 'recall': 0.816, 'f1': 0.818, 'mcc': 0.734}
+valid I metric: {'acc': 0.834, 'precision': 0.833, 'recall': 0.82, 'f1': 0.825, 'mcc': 0.746}
+valid A metric: {'acc': 0.852, 'precision': 0.854, 'recall': 0.804, 'f1': 0.823, 'mcc': 0.756}
+valid AV metric: {'acc': 0.957, 'precision': 0.949, 'recall': 0.817, 'f1': 0.853, 'mcc': 0.896}
+valid AC metric: {'acc': 0.866, 'precision': 0.763, 'recall': 0.735, 'f1': 0.747, 'mcc': 0.743}
+valid AU metric: {'acc': 0.991, 'precision': 0.831, 'recall': 0.831, 'f1': 0.831, 'mcc': 0.662}
+valid severity metric: {'acc': 0.839, 'precision': 0.841, 'recall': 0.725, 'f1': 0.764, 'mcc': 0.699}
+EarlyStopping counter: 1 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:30------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.992, 'precision': 0.993, 'recall': 0.991, 'f1': 0.992, 'mcc': 0.988}
+train I metric: {'acc': 0.994, 'precision': 0.994, 'recall': 0.993, 'f1': 0.994, 'mcc': 0.99}
+train A metric: {'acc': 0.995, 'precision': 0.994, 'recall': 0.993, 'f1': 0.994, 'mcc': 0.991}
+train AV metric: {'acc': 0.998, 'precision': 0.987, 'recall': 0.982, 'f1': 0.984, 'mcc': 0.995}
+train AC metric: {'acc': 0.993, 'precision': 0.981, 'recall': 0.991, 'f1': 0.986, 'mcc': 0.987}
+train AU metric: {'acc': 1.0, 'precision': 0.987, 'recall': 1.0, 'f1': 0.993, 'mcc': 0.987}
+train severity metric: {'acc': 0.994, 'precision': 0.989, 'recall': 0.992, 'f1': 0.99, 'mcc': 0.989}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.823, 'precision': 0.815, 'recall': 0.816, 'f1': 0.815, 'mcc': 0.729}
+valid I metric: {'acc': 0.837, 'precision': 0.835, 'recall': 0.827, 'f1': 0.83, 'mcc': 0.75}
+valid A metric: {'acc': 0.846, 'precision': 0.827, 'recall': 0.812, 'f1': 0.819, 'mcc': 0.746}
+valid AV metric: {'acc': 0.966, 'precision': 0.958, 'recall': 0.853, 'f1': 0.888, 'mcc': 0.917}
+valid AC metric: {'acc': 0.859, 'precision': 0.817, 'recall': 0.73, 'f1': 0.762, 'mcc': 0.729}
+valid AU metric: {'acc': 0.991, 'precision': 0.831, 'recall': 0.831, 'f1': 0.831, 'mcc': 0.662}
+valid severity metric: {'acc': 0.839, 'precision': 0.834, 'recall': 0.762, 'f1': 0.791, 'mcc': 0.701}
+EarlyStopping counter: 2 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:31------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.993, 'precision': 0.993, 'recall': 0.992, 'f1': 0.993, 'mcc': 0.989}
+train I metric: {'acc': 0.994, 'precision': 0.994, 'recall': 0.993, 'f1': 0.994, 'mcc': 0.991}
+train A metric: {'acc': 0.994, 'precision': 0.993, 'recall': 0.993, 'f1': 0.993, 'mcc': 0.99}
+train AV metric: {'acc': 0.998, 'precision': 0.986, 'recall': 0.976, 'f1': 0.981, 'mcc': 0.995}
+train AC metric: {'acc': 0.994, 'precision': 0.991, 'recall': 0.991, 'f1': 0.991, 'mcc': 0.989}
+train AU metric: {'acc': 1.0, 'precision': 1.0, 'recall': 1.0, 'f1': 1.0, 'mcc': 1.0}
+train severity metric: {'acc': 0.994, 'precision': 0.987, 'recall': 0.99, 'f1': 0.989, 'mcc': 0.989}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.819, 'precision': 0.816, 'recall': 0.812, 'f1': 0.811, 'mcc': 0.724}
+valid I metric: {'acc': 0.83, 'precision': 0.833, 'recall': 0.815, 'f1': 0.821, 'mcc': 0.74}
+valid A metric: {'acc': 0.861, 'precision': 0.839, 'recall': 0.829, 'f1': 0.833, 'mcc': 0.773}
+valid AV metric: {'acc': 0.96, 'precision': 0.851, 'recall': 0.841, 'f1': 0.845, 'mcc': 0.897}
+valid AC metric: {'acc': 0.868, 'precision': 0.812, 'recall': 0.754, 'f1': 0.778, 'mcc': 0.747}
+valid AU metric: {'acc': 0.989, 'precision': 0.783, 'recall': 0.83, 'f1': 0.805, 'mcc': 0.612}
+valid severity metric: {'acc': 0.85, 'precision': 0.862, 'recall': 0.767, 'f1': 0.803, 'mcc': 0.723}
+EarlyStopping counter: 3 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:32------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.992, 'precision': 0.993, 'recall': 0.992, 'f1': 0.992, 'mcc': 0.988}
+train I metric: {'acc': 0.995, 'precision': 0.994, 'recall': 0.994, 'f1': 0.994, 'mcc': 0.992}
+train A metric: {'acc': 0.996, 'precision': 0.996, 'recall': 0.995, 'f1': 0.995, 'mcc': 0.994}
+train AV metric: {'acc': 0.997, 'precision': 0.981, 'recall': 0.97, 'f1': 0.975, 'mcc': 0.993}
+train AC metric: {'acc': 0.996, 'precision': 0.994, 'recall': 0.992, 'f1': 0.993, 'mcc': 0.992}
+train AU metric: {'acc': 1.0, 'precision': 1.0, 'recall': 1.0, 'f1': 1.0, 'mcc': 1.0}
+train severity metric: {'acc': 0.993, 'precision': 0.985, 'recall': 0.991, 'f1': 0.988, 'mcc': 0.987}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.823, 'precision': 0.818, 'recall': 0.818, 'f1': 0.816, 'mcc': 0.731}
+valid I metric: {'acc': 0.832, 'precision': 0.836, 'recall': 0.822, 'f1': 0.827, 'mcc': 0.743}
+valid A metric: {'acc': 0.866, 'precision': 0.864, 'recall': 0.831, 'f1': 0.844, 'mcc': 0.779}
+valid AV metric: {'acc': 0.955, 'precision': 0.871, 'recall': 0.842, 'f1': 0.853, 'mcc': 0.888}
+valid AC metric: {'acc': 0.868, 'precision': 0.823, 'recall': 0.737, 'f1': 0.769, 'mcc': 0.746}
+valid AU metric: {'acc': 0.991, 'precision': 0.872, 'recall': 0.749, 'f1': 0.798, 'mcc': 0.608}
+valid severity metric: {'acc': 0.85, 'precision': 0.858, 'recall': 0.77, 'f1': 0.804, 'mcc': 0.721}
+EarlyStopping counter: 4 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:33------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.994, 'precision': 0.994, 'recall': 0.993, 'f1': 0.993, 'mcc': 0.99}
+train I metric: {'acc': 0.995, 'precision': 0.996, 'recall': 0.994, 'f1': 0.995, 'mcc': 0.992}
+train A metric: {'acc': 0.996, 'precision': 0.995, 'recall': 0.995, 'f1': 0.995, 'mcc': 0.993}
+train AV metric: {'acc': 0.996, 'precision': 0.977, 'recall': 0.941, 'f1': 0.958, 'mcc': 0.988}
+train AC metric: {'acc': 0.995, 'precision': 0.994, 'recall': 0.992, 'f1': 0.993, 'mcc': 0.991}
+train AU metric: {'acc': 1.0, 'precision': 1.0, 'recall': 0.987, 'f1': 0.993, 'mcc': 0.987}
+train severity metric: {'acc': 0.994, 'precision': 0.989, 'recall': 0.992, 'f1': 0.99, 'mcc': 0.988}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.823, 'precision': 0.819, 'recall': 0.819, 'f1': 0.816, 'mcc': 0.731}
+valid I metric: {'acc': 0.83, 'precision': 0.829, 'recall': 0.821, 'f1': 0.823, 'mcc': 0.74}
+valid A metric: {'acc': 0.843, 'precision': 0.824, 'recall': 0.821, 'f1': 0.822, 'mcc': 0.744}
+valid AV metric: {'acc': 0.955, 'precision': 0.945, 'recall': 0.818, 'f1': 0.851, 'mcc': 0.893}
+valid AC metric: {'acc': 0.868, 'precision': 0.844, 'recall': 0.739, 'f1': 0.775, 'mcc': 0.747}
+valid AU metric: {'acc': 0.989, 'precision': 0.783, 'recall': 0.83, 'f1': 0.805, 'mcc': 0.612}
+valid severity metric: {'acc': 0.846, 'precision': 0.805, 'recall': 0.765, 'f1': 0.782, 'mcc': 0.716}
+EarlyStopping counter: 5 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:34------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.995, 'precision': 0.995, 'recall': 0.995, 'f1': 0.995, 'mcc': 0.992}
+train I metric: {'acc': 0.995, 'precision': 0.995, 'recall': 0.994, 'f1': 0.995, 'mcc': 0.993}
+train A metric: {'acc': 0.996, 'precision': 0.995, 'recall': 0.996, 'f1': 0.995, 'mcc': 0.993}
+train AV metric: {'acc': 0.999, 'precision': 0.999, 'recall': 0.993, 'f1': 0.996, 'mcc': 0.997}
+train AC metric: {'acc': 0.997, 'precision': 0.995, 'recall': 0.995, 'f1': 0.995, 'mcc': 0.994}
+train AU metric: {'acc': 1.0, 'precision': 1.0, 'recall': 1.0, 'f1': 1.0, 'mcc': 1.0}
+train severity metric: {'acc': 0.994, 'precision': 0.989, 'recall': 0.994, 'f1': 0.992, 'mcc': 0.99}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.83, 'precision': 0.821, 'recall': 0.821, 'f1': 0.821, 'mcc': 0.738}
+valid I metric: {'acc': 0.832, 'precision': 0.828, 'recall': 0.82, 'f1': 0.824, 'mcc': 0.742}
+valid A metric: {'acc': 0.852, 'precision': 0.846, 'recall': 0.809, 'f1': 0.824, 'mcc': 0.756}
+valid AV metric: {'acc': 0.96, 'precision': 0.906, 'recall': 0.85, 'f1': 0.869, 'mcc': 0.901}
+valid AC metric: {'acc': 0.872, 'precision': 0.766, 'recall': 0.758, 'f1': 0.762, 'mcc': 0.757}
+valid AU metric: {'acc': 0.991, 'precision': 0.996, 'recall': 0.667, 'f1': 0.748, 'mcc': 0.575}
+valid severity metric: {'acc': 0.848, 'precision': 0.841, 'recall': 0.768, 'f1': 0.797, 'mcc': 0.718}
+EarlyStopping counter: 6 out of 7
+##############################
+training
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+epoch:35------------train-----------
+train_loss:  0
+train C metric: {'acc': 0.995, 'precision': 0.995, 'recall': 0.995, 'f1': 0.995, 'mcc': 0.993}
+train I metric: {'acc': 0.995, 'precision': 0.995, 'recall': 0.994, 'f1': 0.994, 'mcc': 0.992}
+train A metric: {'acc': 0.997, 'precision': 0.996, 'recall': 0.996, 'f1': 0.996, 'mcc': 0.995}
+train AV metric: {'acc': 0.998, 'precision': 0.992, 'recall': 0.976, 'f1': 0.984, 'mcc': 0.995}
+train AC metric: {'acc': 0.997, 'precision': 0.995, 'recall': 0.995, 'f1': 0.995, 'mcc': 0.994}
+train AU metric: {'acc': 1.0, 'precision': 1.0, 'recall': 0.987, 'f1': 0.993, 'mcc': 0.987}
+train severity metric: {'acc': 0.995, 'precision': 0.989, 'recall': 0.995, 'f1': 0.992, 'mcc': 0.991}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.832, 'precision': 0.824, 'recall': 0.828, 'f1': 0.824, 'mcc': 0.745}
+valid I metric: {'acc': 0.83, 'precision': 0.825, 'recall': 0.821, 'f1': 0.823, 'mcc': 0.74}
+valid A metric: {'acc': 0.846, 'precision': 0.829, 'recall': 0.816, 'f1': 0.822, 'mcc': 0.747}
+valid AV metric: {'acc': 0.955, 'precision': 0.901, 'recall': 0.848, 'f1': 0.865, 'mcc': 0.892}
+valid AC metric: {'acc': 0.881, 'precision': 0.839, 'recall': 0.764, 'f1': 0.793, 'mcc': 0.773}
+valid AU metric: {'acc': 0.982, 'precision': 0.684, 'recall': 0.744, 'f1': 0.71, 'mcc': 0.424}
+valid severity metric: {'acc': 0.843, 'precision': 0.84, 'recall': 0.763, 'f1': 0.794, 'mcc': 0.71}
+EarlyStopping counter: 7 out of 7
+Early stopping
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------valid-----------
+valid_loss:  0
+valid C metric: {'acc': 0.828, 'precision': 0.824, 'recall': 0.822, 'f1': 0.82, 'mcc': 0.737}
+valid I metric: {'acc': 0.83, 'precision': 0.837, 'recall': 0.818, 'f1': 0.823, 'mcc': 0.74}
+valid A metric: {'acc': 0.85, 'precision': 0.838, 'recall': 0.809, 'f1': 0.821, 'mcc': 0.753}
+valid AV metric: {'acc': 0.962, 'precision': 0.913, 'recall': 0.842, 'f1': 0.87, 'mcc': 0.902}
+valid AC metric: {'acc': 0.87, 'precision': 0.785, 'recall': 0.757, 'f1': 0.769, 'mcc': 0.753}
+valid AU metric: {'acc': 0.991, 'precision': 0.831, 'recall': 0.831, 'f1': 0.831, 'mcc': 0.662}
+valid severity metric: {'acc': 0.848, 'precision': 0.847, 'recall': 0.778, 'f1': 0.806, 'mcc': 0.72}
+/root/miniconda3/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+--------------------test-----------
+test_loss:  0
+test C metric: {'acc': 0.837, 'precision': 0.835, 'recall': 0.827, 'f1': 0.828, 'mcc': 0.744}
+test I metric: {'acc': 0.872, 'precision': 0.871, 'recall': 0.853, 'f1': 0.859, 'mcc': 0.801}
+test A metric: {'acc': 0.859, 'precision': 0.849, 'recall': 0.837, 'f1': 0.842, 'mcc': 0.772}
+test AV metric: {'acc': 0.953, 'precision': 0.792, 'recall': 0.76, 'f1': 0.774, 'mcc': 0.873}
+test AC metric: {'acc': 0.826, 'precision': 0.769, 'recall': 0.752, 'f1': 0.759, 'mcc': 0.673}
+test AU metric: {'acc': 0.989, 'precision': 0.663, 'recall': 0.623, 'f1': 0.64, 'mcc': 0.283}
+test severity metric: {'acc': 0.837, 'precision': 0.798, 'recall': 0.773, 'f1': 0.784, 'mcc': 0.705}
+
+Process finished with exit code 0
