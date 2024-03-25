@@ -7,3 +7,10 @@ We will open source all the codes after our paper are accepted
 
 For the impact of different learning rates and batch sizes we provide experiment results in folders.
 
+**Environment Setup**:\
+pandas\
+pytorch\
+cvxpy\
+scikit-learn\
+transformers
+
