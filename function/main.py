@@ -13,16 +13,10 @@ from torch.optim import AdamW
 from torch.utils.data import TensorDataset, DataLoader,Dataset
 import random
 from transformers import get_linear_schedule_with_warmup
-from CodeReviewer.Method.loss import AutomaticWeightedLoss, GLS, PCGrad
-from CodeReviewer.cal.pcgrad_fn import pcgrad_fn
-from CodeReviewer.cal.weight_methods import WeightMethods
+
+from weight_methods import WeightMethods
 from constant import constant
-from review import ReviewerModel, build_or_load_gen_model
-from model import EarlyStopping
-# path = "/".join(sys.path[0].split("/")[:-2])
-# sys.path.append(path)
-# from CodeReviewer.Method.loss import IMTL
-# import gcn
+from review import ReviewerModel, build_or_load_gen_model,EarlyStopping
 
 
 def setup_seed(seed):

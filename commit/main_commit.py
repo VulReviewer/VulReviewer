@@ -14,7 +14,7 @@ from torch.utils.data import TensorDataset, DataLoader,Dataset
 import random
 from transformers import get_linear_schedule_with_warmup
 
-from CodeReviewer.cal.weight_methods import WeightMethods
+from weight_methods import WeightMethods
 from constant_commit import constant
 from review_commit import ReviewerModel, build_or_load_gen_model
 from review_commit import EarlyStopping
