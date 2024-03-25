@@ -324,7 +324,7 @@ if __name__ == "__main__":
         elif cons.ablation == 'commit':
             PRED_C, LABEL_C, PRED_I, LABEL_I, PRED_A, LABEL_A, PRED_AV, LABEL_AV, PRED_AC, LABEL_AC, PRED_AU, LABEL_AU, PRED_severity, LABEL_severity = pre_label_init_commit()
         total_loss = 0
-        # 每个epoch更新一次
+
 
         for step, batch in enumerate(trainData):
             true_C, true_I, true_A, true_AV, true_AC, true_AU, true_severity = get_labels(batch, dev)

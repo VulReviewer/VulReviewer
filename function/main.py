@@ -282,7 +282,7 @@ if __name__ == "__main__":
                 # last_shared_parameters=list(model.last_shared_parameters()),
                 representation=features,
             )
-            #  这个可能会影响结果，先注释起来。不用MTL则记得要放开
+
             torch.nn.utils.clip_grad_norm_(model.parameters(), cons.max_grad_norm)
 
             optimizer.step()
