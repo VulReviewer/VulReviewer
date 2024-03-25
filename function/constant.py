@@ -3,7 +3,7 @@ import torch
 
 class constant(object):
     def __init__(self):
-        # 以下来自CodeReviewer
+
         self.epoch = 12
         self.num_train_epochs = self.epoch
         self.max_grad_norm=1.0
@@ -20,9 +20,6 @@ class constant(object):
         self.model_name_or_path= "microsoft / codereviewer"
 
 
-        self.data_path = r"./data/code_hc.parquet"
-        self.label_path = r"./data/zzx.csv"
-
         self.max_source_length=512
         self.max_target_length = 128
         self.mask_rate=0.15
@@ -32,7 +29,7 @@ class constant(object):
         self.seed=2233
         self.load_model_path=None
 
-        # 以下来自CodeBERT
+
         self.local_rank = -1
         self.start_step = 0
         self.start_epoch = 0
