@@ -21,7 +21,7 @@ from transformers import (
 )
 import logging
 
-from CodeReviewer.Method.VIB import VIB
+from VIB import VIB
 
 
 # from CodeReviewer.Method.main1 import prepare_VIB
